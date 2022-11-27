@@ -137,13 +137,13 @@
 }
 
 .pagination button {
-    padding: .25rem .5rem;
-    margin: .25rem 0;
+    padding: 0.5rem 0.75rem;
+    margin: 0.25rem 0;
     font-size: .625rem;
     color: #fff;
     background-color: #6c79db;
     border: none;
-    border-radius: 1rem;
+    border-radius: 0.3rem;
 }
 
 @media screen and (min-width: 380px) {
@@ -162,4 +162,14 @@
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+}
+
+.img-template {
+    width: 40px;
+}
+
+.content-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
